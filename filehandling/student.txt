@@ -1,0 +1,2 @@
+student name:ganesh
+course:python
