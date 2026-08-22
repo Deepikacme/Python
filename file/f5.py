@@ -1,0 +1,6 @@
+f=open("data.txt","w+")
+f.write("abcdefghijklmnopqrstuvwxyz")
+f.seek(0)
+data=f.read()
+print(data)
+f.close()
