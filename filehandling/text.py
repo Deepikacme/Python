@@ -1,6 +1,0 @@
-name=input("enter your name:")
-course=input("enter your course:")
-marks=int(input("enter your marks"))
-print("name:",name)
-print("course:",course)
-print("marks:marks")

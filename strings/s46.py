@@ -1,1 +1,0 @@
-print("c:\\users\\admin\\documents")

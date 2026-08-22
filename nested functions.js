@@ -1,8 +1,0 @@
-function outer()
-{
-function inner(){
-
-    console.log("inner function");
-}
-inner();
-}

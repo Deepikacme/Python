@@ -1,4 +1,0 @@
-python
-java
-data science
-digital marketing

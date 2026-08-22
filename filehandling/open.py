@@ -1,1 +1,0 @@
-file=open("student.txt","r")

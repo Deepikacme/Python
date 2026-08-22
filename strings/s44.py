@@ -1,1 +1,0 @@
-print("python\njava\ndata science")
