@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def grade(marks):
     if marks>=90:
         return "A"
@@ -10,3 +11,11 @@ def grade(marks):
     else:
         return "Fail"
 print(grade(85))
+=======
+numbers=[20, 60, 40, 80, 30, 70]
+count=0
+for i in numbers:
+    if i>50:
+        count=count+1
+print(count)
+>>>>>>> b4f0831a8fc11de192ce451b32bfc96cd339302a
