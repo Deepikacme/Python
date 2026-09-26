@@ -1,0 +1,7 @@
+f = open("data.txt", "r")
+data = f.read()
+f.close()
+f = open("upper.txt", "w")
+f.write(data.upper())
+f.close()
+print("Text converted to uppercase")

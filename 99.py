@@ -1,0 +1,15 @@
+try:
+    f1 = open("data.txt", "r")
+    data = f1.read()
+    f1.close()
+
+    f2 = open("copy.txt", "w")
+    f2.write(data)
+    f2.close()
+
+    print("File copied successfully")
+
+except FileNotFoundError:
+    print("Source file not found")
+except PermissionError:
+    print("Permission denied")

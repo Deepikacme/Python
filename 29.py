@@ -1,0 +1,5 @@
+f = open("data.txt", "r")
+print(f.tell())
+f.seek(5)
+print(f.tell())
+f.close()

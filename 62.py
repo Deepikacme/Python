@@ -1,0 +1,6 @@
+f = open("students.txt", "w")
+f.write("1,Deepika,CME,85\n")
+f.write("2,Priya,CSE,78\n")
+f.write("3,Rahul,EEE,90\n")
+f.close()
+print("Records saved")

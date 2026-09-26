@@ -1,0 +1,7 @@
+f = open("data.txt", "r")
+data = f.read()
+f.close()
+f = open("lower.txt", "w")
+f.write(data.lower())
+f.close()
+print("Text converted to lowercase")

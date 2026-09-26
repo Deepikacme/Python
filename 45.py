@@ -1,0 +1,8 @@
+f=open("data.txt", "r")
+data=f.read()
+f.close()
+data=" ".join(data.split())
+f=open("newdata.txt", "w")
+f.write(data)
+f.close()
+print("Extra spaces removed")
